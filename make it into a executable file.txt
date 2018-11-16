@@ -1,0 +1,13 @@
+go to the directory of your of your workspace and make sure the 
+backend and frontend is in separated through their folders.
+
+//AGAIN THIS WILL ONLY WORK IF YOU HAVE YOUR OWN MYSQL DATABASE
+OTHERWISE USE mysqlite.
+
+pip install pyinstaller
+pyinstaller --onefile --windowed frontend.py
+then go to dist folder to find your .exe file
+
+//----- OR ----- if you want one file only
+pip install pyinstaller
+pyinstaller -F frontend.py
